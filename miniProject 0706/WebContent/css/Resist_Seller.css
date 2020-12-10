@@ -1,0 +1,154 @@
+/* body 占쏙옙타占쏙옙 */
+body{margin: 0; padding-top: 100px; 
+}
+
+/* container 占쏙옙타占쏙옙 */
+#container{
+    position: relative;
+    width: 1100px; margin: 0 auto; padding: 0 20px; text-align: center;
+}
+
+/* header �뒪���씪 */
+#header{
+position: relative;
+padding: 30px; 
+text-align: center;
+height: 150px;
+}
+
+/* 而⑦뀗痢�1 �쁺�뿭 */
+#content1{
+position: relative;
+text-align: center;
+border: 2px solid gray;
+color: cornsilk;
+}
+#content1 h1{
+    color:cornsilk;
+}
+/* �긽�뭹 �뜽�꽕�씪 �궗吏� */
+#content1_profile_picture{
+    margin: 0px -50px;
+}
+#content1_profile_table{
+    width: 100%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    border:gray 1px solid
+}
+#content1_profile table{
+	width: 85%;
+	margin: 50px auto;
+    border-collapse: collapse;
+    border:gray 1px solid;
+}
+#content1_profile_table tr{
+    border-top: gray 1px solid;
+}
+#content1_profile table td{
+    
+    color: cornsilk;
+    padding: 20px;
+}
+#content1_profile_table input{
+    outline: none;
+    font-size: 15pt;
+    float: left;
+    padding: 5px;
+}
+
+
+/* �긽�뭹�젙蹂� �쁺�뿭 */
+#content1_album_info{
+/* border: black 1px solid; */
+text-align: left;
+display: block;
+position: absolute;
+top: 0px;
+left: 260px;
+height: 197px;
+}
+#content1_album_title{
+font-size: 30pt;
+font-weight: bold;
+color: cornsilk;
+}
+#content1_album_artist{
+font-size: 20pt;
+color: coral;
+position: relative;
+top: -40px;
+}
+#content1_album_release{
+font-size: 11pt;
+position: relative;
+top: -60px;
+color: cornflowerblue;
+}
+
+/* 占쏙옙占쏙옙占쏙옙占쏙옙 占쏙옙占쏙옙 */
+#content2{
+    color: cornsilk !important;
+    padding-top: 30px;
+    padding: 20px;
+}
+#content2_credit_info{
+    margin: 20px;
+}
+#content2_credit_info_table{
+    width: 100%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    /* border:gray 1px solid */
+}
+#content2_credit_info_table tr{
+    border-top: gray 1px solid;
+}
+#content2_credit_info_table td{
+    color: cornsilk;
+    padding: 20px 10px 20px 10px;
+}
+#content2_credit_info_table input{
+    outline: none;
+    font-size: 15pt;
+    float: left;
+    padding: 5px;
+}
+#content2_credit_info_table select{
+    float: left;
+}
+#content2_credit_info_table span{
+    font-size: 15pt;
+    font-weight: bold;
+}
+#terms_of_service h1{
+    color: cornsilk;
+}
+#terms_of_service textarea{
+width: 100%; 
+height: 400px; 
+resize: none; 
+color: cornsilk;
+background-color: rgb(31, 28, 28); 
+outline: none;
+margin-top: 30px;
+overflow-x: hidden;
+overflow-y: scroll;
+border: 1px solid gray;
+}
+#Accept_the_terms_of_use{
+    position: relative;
+    margin: 20px;
+    color: cornsilk;
+    font-size: 15pt;
+}
+#Accept_the_terms_of_use_checkbox{
+    position: absolute;
+    bottom: -5px;
+    right: 110px;
+    width: 25px;
+    height: 28px;
+}
+#content3{
+    padding: 40px;
+}

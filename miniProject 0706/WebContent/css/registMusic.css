@@ -1,0 +1,139 @@
+/* body 스타일 */
+body{margin: 0; padding-top: 100px;}
+
+/* container 스타일 */
+#container{
+    position: relative;
+    width: 1100px; margin: 0 auto; padding: 0 20px; text-align: center;
+}
+
+
+button{
+    background: transparent;
+    border: none;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+}
+#add_button:hover{
+    border: 2px solid red;
+}
+.material-icons{
+    display: block;
+}
+#add_button{
+    border: 2px solid cornsilk;
+    position: absolute;
+    left: 0px; top: -40px;
+    margin-bottom: 50px;
+}
+#add_button:hover{
+    border: 2px solid rgb(175, 57, 57);
+}
+#remove_button{
+    border: 2px solid cornsilk;
+    position: absolute;
+    left: 110px; top: -40px;
+    margin-bottom: 50px;
+}
+#remove_button:hover{
+    border: 2px solid rgb(175, 57, 57);
+}
+#confirm_button{
+    border: 2px solid cornsilk;
+}
+#confirm_button:hover{
+    border: 2px solid rgb(175, 57, 57);
+}
+#cancel_button{
+    border: 2px solid cornsilk;
+}
+#cancel_button:hover{
+    border: 2px solid rgb(175, 57, 57);
+}
+
+/* header 스타일 */
+#header{
+position: relative;
+padding: 30px; 
+text-align: center;
+height: 150px;
+}
+
+/* 컨텐츠1 영역 */
+#content1{
+position: relative;
+text-align: center;
+border: 2px solid gray;
+color: cornsilk;
+}
+#content1 h1{
+    color:cornsilk;
+}
+#content1_product{
+	width: 100%;
+}
+/* 상품 썸네일 사진 */
+#content1_product_picture{
+    margin: 0px -50px;
+}
+/* #content1_product_table{
+    width: 80%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    border:gray 1px solid;
+} */
+#content1_product table{
+	width: 85%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    border:gray 1px solid;
+}
+#content1_product_table tr{
+	border-top: gray 1px solid;
+}
+#content1_product table td{
+    color: cornsilk;
+    padding: 20px;
+}
+#content1_product_table input{
+    outline: none;
+    font-size: 15pt;
+    padding: 5px;
+}
+
+
+/* 상품정보 영역 */
+#content1_album_info{
+border: black 1px solid;
+text-align: left;
+display: block;
+position: absolute;
+top: 0px;
+left: 260px;
+height: 197px;
+}
+#content1_album_title{
+font-size: 30pt;
+font-weight: bold;
+color: cornsilk;
+}
+#content1_album_artist{
+font-size: 20pt;
+color: coral;
+position: relative;
+top: -40px;
+}
+#content1_album_release{
+font-size: 11pt;
+position: relative;
+top: -60px;
+color: cornflowerblue;
+}
+#content2{
+    position: relative;
+    height: 100px;
+}
+#content3{
+    padding: 40px;
+}

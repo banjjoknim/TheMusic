@@ -1,0 +1,127 @@
+body{margin: 0; padding-top: 100px; padding-bottom: 0; text-align: center;}
+a{text-decoration: none;}
+ul{list-style-type: none;}
+img{border: 0;}
+
+
+
+/*네비 바*/
+#nav_bar{
+    position: fixed;
+    height: 100px; 
+    background-color: black; 
+    width: 100%; 
+    z-index: 9999; 
+    top: 0; 
+    left: 0;
+}
+
+#nav_bar_h1{color: white; line-height: 25px; float: left; padding: 0 0px;}
+
+.nav_bar_wrapper{width: 1100px; margin: 0  auto;}
+.nav_bar_clearfix{content: ''; display: block; clear: both;}
+/*메뉴 클래스(왼쪽 3개 메뉴)*/
+.nav_bar_menu {float:left;}
+.nav_bar_menu li{float:left;}
+.nav_bar_menu a{font-size: 1em; line-height: 35px; color:white; padding: 0 12px; display: block;}
+/*메뉴 클래스(로그인 회원가입)*/
+.nav_bar_small_menu {float:center;}
+.nav_bar_small_menu li{float:right;}
+.nav_bar_small_menu a{font-size: small;  line-height: 70px; color:white; padding: 0 10px; display: block;}
+
+/*서치 바*/
+
+.nav_bar_search {
+    width: 100%;
+    position: relative;
+    display: flex;
+    }
+/*서치 바 몸통*/ 
+.nav_bar_searchTerm {
+    width: 60%;
+    border: 1px solid white;
+    border-right: none;
+    padding: 5px 0 5px 20px;
+    height: 25px;
+    border-radius: 20px 20px 20px 20px;
+    color: black;
+  }
+  /*서치 바 속 쓰이는 글씨 컬러*/
+  .nav_bar_searchTerm:focus{
+    color: black;
+    font-size: small;
+  
+  }
+ 
+  /*서치 바 버튼 */
+  .nav_bar_searchButton {
+    position: relative;
+    width: 40px;
+    height: 35px;
+    border: 1px solid white;
+    background:transparent;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    right: 40px;
+    
+  }
+  /*Resize the wrap to see the search bar change!*/
+  /*양옆으로 이동시 width값을 사용함. 줄일수록 오른쪽)*/
+  .nav_bar_wrap{
+    width: 40%;
+    position: relative;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  }
+#container{
+    width: 1100px;
+    margin: 20px auto;
+    border: black 1px solid;
+}
+#header{
+    border: black 1px solid;
+    margin-bottom: 20px;
+}
+
+#content1{
+    border: black 1px solid;
+    margin-bottom: 20px;
+    margin: 20px;
+}
+#content2{
+    border: black 1px solid;
+    margin-bottom: 20px;
+    margin: 20px;
+}
+#content3{
+    border: black 1px solid;
+    margin-bottom: 20px;
+    margin: 20px;
+}
+#footer{
+    border: black 1px solid;
+}
+
+/* footer 스타일 */
+footer{width: 100%; height: 150px; position: relative; clear: both;}
+footer ul{
+    list-style-type: none;
+    margin-left: 90px;
+    position: absolute;
+    top: 10px;
+}
+footer ul li{
+    float: left;
+    margin: 20px 70px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: cornsilk;
+    font-size: small;
+    font-weight: bold;
+}
+footer ul li a:hover{
+    color: coral;
+}

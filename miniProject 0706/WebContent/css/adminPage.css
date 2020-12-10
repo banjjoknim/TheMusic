@@ -1,0 +1,94 @@
+#content1{
+position:relative;
+width:830px;
+text-align: center;
+color: cornsilk;
+left: 230px;
+}
+
+
+table {
+	color: cornsilk;
+	border-collapse : collapse;	
+	border: 1px solid cornsilk;
+	text-align:center;
+	margin: 0 auto;
+	
+}
+
+tr {
+	border-collapse : collapse;	
+	border: 1px solid cornsilk;
+	text-align:center;
+}
+
+th{
+	border: 1px solid cornsilk;
+	border-collapse : collapse;	
+	text-align:center;
+	padding: 2px;
+	font-size:0.7em;
+	color:black;
+	background-color:lightgray;
+}
+
+td{
+	border: 1px solid cornsilk;
+	border-collapse : collapse;	
+	text-align:center;
+	padding: 2px;
+	font-size:0.7em;
+}
+
+
+#left_sidebar {
+    position : fixed;
+    border:  cornsilk 1px solid;
+    width:200px;
+    height: 320px;
+    float: left;
+    color:cornsilk;
+    bottom: 100px;
+    margin-right:-20px;
+    z-index:1;
+
+	
+}
+#left_sidebar ul{
+    text-align: left;
+  
+}
+#left_sidebar ul li{
+    text-align: left;
+    font-weight: 500;
+}
+
+#left_sidebar ul li p{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#left_sidebar ul li input{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#content3{
+	position:relative;
+	width: 200px;
+	height: 150px;
+	top: 20px;
+}
+
+#button{
+    width: 75px; 
+	height: 40px; 
+	font-size: 10pt;
+	outline: none; 
+	font-weight: bold; 
+	background-color: cornsilk; 
+	color: black; 
+	border-radius: 5px;
+	margin-top: -20px;
+}
+

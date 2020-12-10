@@ -1,0 +1,177 @@
+/* 모든 컨텐츠의 가로길이는 1100미만. */
+
+/* body 스타일 */
+body{margin: 0; padding-top: 100px;}
+    
+
+/* container 스타일 */
+#container{
+        position: relative;
+        width: 1100px; margin: 0 auto; padding: 0 20px; 
+        text-align: center;
+    }
+
+/* header 스타일 */
+#header{
+    position: relative;
+    padding: 30px; 
+    text-align: center;
+    height: 150px;
+}
+/* 현재 페이지 정보 */
+#header_info{
+    color: cornsilk;
+    font-weight: bold;
+    font-size: 40pt;
+}
+/* 컨텐츠1 영역 */
+#content1{
+    position: relative;
+    text-align: center;
+    height: 200px;
+    border: gray 2px solid;
+}
+/* 앨범 사진 */
+#content1_album_picture{
+    position: absolute;
+    left: 0px;
+}
+/* 앨범정보 영역 */
+#content1_album_info{
+    border: black 1px solid;
+    text-align: left;
+    display: block;
+    position: absolute;
+    height: 200px;
+    top: 0px;
+    left: 260px;
+}
+#content1_album_title{
+    font-size: 30pt;
+    font-weight: bold;
+    color: cornsilk;
+}
+#content1_album_artist{
+    font-size: 20pt;
+    color: coral;
+    position: relative;
+    top: -40px;
+}
+#content1_album_release{
+    font-size: 11pt;
+    position: relative;
+    top: -60px;
+    color: cornflowerblue;
+}
+button{
+    border: none;
+    outline: none;
+}
+#content1 button{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    border: 0; 
+    position: relative; 
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+}
+#content1_song_info_like_button{
+    top: -70px; left: 0px;
+}
+#content1_song_info_playlist_add_button{
+    top: -70px; left: 10px;
+}
+#content1_song_info_playlist_add_shopping_cart_button{
+    top: -70px; left: 20px;
+}
+/* 앨범정보 우측 표시 */
+#content1_album_followers{
+float: right;
+color: rgb(134, 131, 131);
+padding-top: 25px;
+font-size: 14pt;
+text-align: center;
+}
+#content1_album_tracks{
+    float: right;
+    color: rgb(134, 131, 131);
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 14pt;
+    text-align: center;
+}
+#content1_album_followers_num{
+    color: coral;
+    font-size: 25pt;
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+}
+#content1_album_tracks_num{
+    color: coral;
+    font-size: 25pt;
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    }
+
+#content2_track_list{
+    color: cornsilk;
+    font-size: 25pt;
+    margin-bottom: 28px;
+}
+#content2 .song_in_list:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}
+#content2 .playbutton{
+    cursor: pointer;
+
+}
+button{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    border: 0; 
+    position: relative; 
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.followers_tracks{
+    float: left;
+}
+#followers{
+    position: absolute;
+    right: 100px; top: 50px;
+}
+#tracks{
+    position: absolute;
+    right: 100px; top: 80px;
+}
+
+/* 수록곡 리스트 테이블 스타일 */
+/* tr{border-top: white;} */
+th{font-size: 13pt; font-weight: bold; color: white; height: 60px; background-color: gray; padding: 0px 7px;}
+td{font-size: 11pt; font-weight: bold; color: white; height: 40px; padding-top:10px ;}
+   table{
+        margin: 0 auto;
+        table-layout: fixed; width: 900px;
+        border-collapse: collapse;
+        /* border: 2px solid coral; */
+        empty-cells: hide;
+        text-align: center;
+        overflow-x: hidden;
+    }
+    td img{border-radius: 7px; width: 70px; height: 70px;}
+
+    
+
+    
+    
+    

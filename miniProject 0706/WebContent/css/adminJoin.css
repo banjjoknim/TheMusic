@@ -1,0 +1,107 @@
+#content1{
+	color: cornsilk;
+}
+
+
+#content1_form fieldset {
+    margin: 0 auto;
+    width: 900px;
+}
+#content1_form ul.join_box{
+    text-align : left;
+    margin: 0 auto;
+}
+
+#content1_form label.reg {
+   	text-align : left;
+    font-size: 15px;
+    font-weight: 400;
+    width: 150px;
+    float: left;
+    padding-left: 46px;
+}
+
+#content1_form ul li {
+    margin: 30px 0 30px 50px ;
+    color : cornsilk;
+    
+}
+
+
+
+/* 占쎌뵠占쎌뒠占쎈튋�꽴占� 獄쏉옙 揶쏆뮇�뵥占쎌젟癰귣똻荑귞뵳�됯컩燁삼옙 */
+
+
+#content2_form fieldset {
+    margin: 0 auto;
+    margin-left: 25px;
+    width: 1000px;
+}
+
+#content2_form{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#content2_form ul.join_box{
+    padding : 30px;
+    margin-left: 55px;
+}
+
+
+
+#content2_form .clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+#content2_form .checkBox ul{
+    position: relative;
+    padding: 0px;
+}
+
+#content2_form .checkBox ul li{
+    float: left;
+    list-style: none
+    
+}
+
+#content2_form .checkBox ul li:first-child{
+    text-align: left;
+    width: 85%;
+    padding: 15px;
+    font-weight: 600;
+    color:  cornsilk;
+}
+
+#content2_form .checkBox ul li:nth-child(2){
+    position: absolute;
+    top: 50%;
+    right: 68px;
+    margin-top: -12px;
+}
+
+#content2_form .checkBox textarea{
+    width: 90%;
+    height: 100px; 
+    margin-left: 15px;
+    background-color: lightgray;
+    color: black; 
+    border: none;
+    overflow: scroll;
+    outline : none;
+    resize: none;
+    overflow-x:hidden;
+}
+
+
+
+
+
+
+
+
+
+

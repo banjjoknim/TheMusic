@@ -1,0 +1,441 @@
+#header h1{
+    color : cornsilk;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+#content1{
+   	float: right;
+    width: 880px;  /* 占쎄섐�뜮占� */
+    padding: 0 0 0 -100px;  /* 占쎈솭占쎈뎃 */
+    color: cornsilk;
+    border-radius: 5px;
+    margin-bottom: 30px;  /* 占쎈툡占쎌삋 占쎌뒄占쎈꺖占쏙옙占쎌벥 揶쏄쑨爰� */
+}
+
+#content1 h1{
+    color: cornsilk;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 140px;
+}
+
+
+
+#content1 ul li{
+    float: left;
+    
+   
+}
+#content1 ul li img{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 15px; 
+    border-radius: 7px; 
+    
+}
+
+
+  
+  .img-content1 {
+    width:150px;
+    height:150px;
+    position : relative;
+    cursor:pointer;
+    margin-right: 60px;
+    user-select:none;
+  }
+  .img1 {
+    top:0px;
+    left:0px;  
+  }
+  
+  .img2 {
+    top:0px;
+    left:60px;
+  }
+  
+  .img3 {
+    top:0px;
+    left: 120px;
+  }
+  
+  .img4 {
+    top:0px;
+    left:180px;
+  }
+  .img-content1 img {
+    display:block;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.6); 
+    margin-top: -60px;
+  }
+  .img-with-text {
+    position : relative;
+    text-align: center;
+    width: 150px;
+    margin-left: 50px;
+   	bottom: 130px  
+	}
+  .img-with-text strong{
+    text-align: center;
+    font-size: 1em;
+    width: 150px;
+    margin-left: -100px;
+	}
+	
+	
+.img-with-text a{
+    text-align: center;
+    width: 150px;
+    font-size: 0.9em;
+    margin-left: -100px;
+      
+}
+.img-with-text a:hover { 
+	text-decoration: underline;
+	}
+
+
+ 
+ 
+ 
+ 
+  .darkness {
+    position:absolute;
+    top:0px;
+    left:0px;
+    right: 0 ;
+    bottom: 0;
+    width:150px;
+    height:150px;
+    background:#000000;
+    /* �빊遺쏙옙占쎈쭆 �겫占썽겫占� */
+    opacity:0;
+    transition:all .1s linear;
+  }
+  .btn-plus {
+    position:absolute;
+    top:50px;
+    left:48px;
+    background:red;
+    width:55px;
+    height:55px;
+    border-radius:50%;
+  
+    /* �빊遺쏙옙占쎈쭆 �겫占썽겫占� */
+    opacity:0;
+    transform:scale(0.5);
+    transition:all .1s linear;
+  }
+ 
+  
+  .btn-plus span {
+    position:absolute;
+    top:8px;
+    left:17px;
+    font-size:1.5em;
+    color:#ffffff;
+  }
+  
+  /* �빊遺쏙옙占쎈쭆 �겫占썽겫占� */
+  .img-content1:hover .darkness{
+    opacity:0.4;
+  }
+  
+  /* �빊遺쏙옙占쎈쭆 �겫占썽겫占� */
+  .img-content1:hover .btn-plus {
+    opacity:1;
+    transform:scale(0.8);
+  }
+
+
+
+
+
+
+
+
+
+
+
+#left_sidebar {
+    position : relative;
+    border:  cornsilk 1px solid;
+    width:200px;
+    height: 300px;
+    float: lefe;
+    color:cornsilk;
+    margin-top:50px;
+    bottom: 0px;
+    margin-right:-20px;
+
+	
+}
+#left_sidebar ul{
+    text-align: left;
+  
+}
+#left_sidebar ul li{
+    text-align: left;
+    font-weight: 500;
+}
+
+#left_sidebar ul li p{
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+#left_sidebar ul li input{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+#content2{
+   	float: right;
+    width: 880px;  /* 占쎄섐�뜮占� */
+    padding: 0 0 0 -100px;  /* 占쎈솭占쎈뎃 */
+    color: cornsilk;
+    border-radius: 5px;
+    margin-bottom: 30px;  /* 占쎈툡占쎌삋 占쎌뒄占쎈꺖占쏙옙占쎌벥 揶쏄쑨爰� */
+
+}
+
+#content2 h1{
+   color: cornsilk;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 140px;
+    margin-top: -70px;
+}
+
+#content2 ul li{
+    float: left;
+    
+   
+}
+#content2 ul li img{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 15px; 
+    border-radius: 75px; 
+    
+}
+
+
+
+  
+  .img-content2 {
+    width:150px;
+    height:150px;
+    position : relative;
+    cursor:pointer;
+    margin-right: 60px;
+  }
+  .img1 {
+    top:0px;
+    left:0px;
+    margin-bottom:50px;
+  }
+  
+
+  .img-content2 img {
+    display:block;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.6);
+  
+    
+  }
+  .img-content2-with-text {
+    text-align: center;
+    width: 150px;
+    margin-left: 50px;
+    
+}
+.img-content2-with-text strong{
+    text-align: center;
+    font-size: 1em;
+    width: 150px;
+    margin-left: -100px;
+    
+   
+}
+.img-content2-with-text a{
+    text-align: center;
+    width: 150px;
+    font-size: 0.9em;
+    margin-left: -100px;
+    color: gray;
+}
+
+ 
+  .img-content2-darkness {
+    position:absolute;
+    top:0px;
+    left:0px;
+    right: 0 ;
+    bottom: 0;
+    width:150px;
+    height:150px;
+    background:#000000;
+    /* �빊遺쏙옙占쎈쭆 �겫占썽겫占� */
+    opacity:0;
+    transition:all .1s linear;
+  }
+
+  /* �빊遺쏙옙占쎈쭆 �겫占썽겫占� */
+  .img-content2:hover .darkness{
+    opacity:0.4;
+  }
+  
+  /* �빊遺쏙옙占쎈쭆 �겫占썽겫占� */
+  .img-content2:hover .btn-plus {
+    opacity:1;
+    transform:scale(0.8);
+  }
+
+
+
+
+
+
+
+#content3{
+   	float: right;
+    width: 880px;  /* 占쎄섐�뜮占� */ 
+    padding: 0 0 0 -100px;  /* 占쎈솭占쎈뎃 */
+    color: cornsilk;
+    border-radius: 5px;
+    margin-bottom: 50px;  /* 占쎈툡占쎌삋 占쎌뒄占쎈꺖占쏙옙占쎌벥 揶쏄쑨爰� */
+
+}
+
+#content3 h1{
+    color: cornsilk;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 140px;
+    margin-top: -70px;
+    
+}
+
+#content3 ul li{
+    float: left;
+    
+   
+}
+#content3 ul li img{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 15px; 
+    border-radius: 7px; 
+    
+}
+
+  
+  .img-content3 {
+    width:150px;
+    height:150px;
+    position : relative;
+    cursor:pointer;
+    margin-right: 60px;
+  }
+  .img1 {
+    top:0px;
+    left:0px;
+    margin-bottom:150px;
+  }
+  
+  .img2 {
+    top:0px;
+    left:60px;
+  }
+  
+  .img3 {
+    top:0px;
+    left: 120px;
+  }
+  
+  .img4 {
+    top:0px;
+    left:180px;
+  }
+  .img-content3 img {
+    display:block;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.6);
+  
+    
+  }
+  .img-content3-with-text {
+    text-align: center;
+    width: 150px;
+    margin-left: 50px;
+    
+}
+.img-content3-with-text strong{
+    text-align: center;
+    font-size: 1em;
+    width: 150px;
+    margin-left: -100px;
+    
+   
+}
+.img-content3-with-text a{
+    text-align: center;
+    width: 150px;
+    font-size: 0.9em;
+    margin-left: -100px;
+    color: gray;
+}
+
+ 
+  .darkness {
+    position:absolute;
+    top:0px;
+    left:0px;
+    right: 0 ;
+    bottom: 0;
+    width:150px;
+    height:150px;
+    background:#000000;
+    /* �빊遺쏙옙占쎈쭆 �겫占썽겫占� */
+    opacity:0;
+    transition:all .1s linear;
+  }
+  .btn-plus {
+    position:absolute;
+    top:50px;
+    left:48px;
+    background:red;
+    width:55px;
+    height:55px;
+    border-radius:50%;
+  
+    /* �빊遺쏙옙占쎈쭆 �겫占썽겫占� */
+    opacity:0;
+    transform:scale(0.5);
+    transition:all .1s linear;
+  }
+ 
+  
+  .btn-plus span {
+    position:absolute;
+    top:8px;
+    left:17px;
+    font-size:1.5em;
+    color:#ffffff;
+  }
+  
+  /* �빊遺쏙옙占쎈쭆 �겫占썽겫占� */
+  .img-content3:hover .darkness{
+    opacity:0.4;
+  }
+  
+  /* �빊遺쏙옙占쎈쭆 �겫占썽겫占� */
+  .img-content3:hover .btn-plus {
+    opacity:1;
+    transform:scale(0.8);
+  }

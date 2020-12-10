@@ -1,0 +1,189 @@
+body{
+  padding: 0;
+  padding-top: 100px; 
+  background-color: black;
+  }
+a{text-decoration: none;}
+ul{list-style-type: none;}
+img{border: 0;}
+
+
+/* 占쏙옙占쏙옙 */
+#content1_section{
+  
+  width: 773px;  /* 占십븝옙 */
+  height: 425px; 
+  padding: 60px;  /* 占싻듸옙 */
+  background-color: rgb(199, 121, 33);
+  background: transparent;
+  color: cornsilk;
+  font-size: 1.2em;
+  border-radius: 5px;
+  margin-left: 85px;
+  margin-bottom: 100px;  /* 占싣뤄옙 占쏙옙奴占쏙옙占� 占쏙옙占쏙옙 */
+  text-align: left;
+
+
+
+}
+#content1_article_section{
+  width:30%; /*30%占쏙옙 3占쏙옙*/
+  height:400px;
+  float:left;
+  margin:5px;
+  padding:5px;
+}
+#content1_article_section button{
+background-color: transparent; 
+border:0px transparent solid;
+outline: none;
+cursor: pointer;
+}
+#content1_article_section button:hover{
+background-color: transparent; 
+border:0px transparent solid;
+color : purple;
+}
+.content1_article_section_img{
+  border-radius: 7px; 
+  float: left; 
+  display: block; 
+  margin-right: 10px; 
+ 
+}
+
+#content2_section{
+  width: 1000px;  /* 占십븝옙 */
+  margin-bottom: 20px;  /* 占싣뤄옙 占쏙옙奴占쏙옙占� 占쏙옙占쏙옙 */	
+  margin-left : 45px;
+}
+#content2_h2{
+  width:900px;
+  padding: 0 45px;
+  text-align: left;
+  color:white; 
+  font-family:'Franklin Gothic Medium';
+  margin-left: -4px;
+  margin-bottom: 70px;
+}
+
+.content2_img {display: block; }
+.content2_img li{float:left; color:white;}
+
+
+.img-with-text{
+ margin-bottom:30px;
+}
+
+.img-with-text2{
+ margin-bottom:-60px;
+}
+
+.img-with-text a{
+position: relative;
+text-align: center;
+font-size: 1em;
+width: 150px;
+margin-bottom: -10px;
+margin-left: -70px;
+bottom: 15px;
+color:cornsilk;
+}
+
+.img-with-text2 a:hover { 
+	color:coral;
+	}
+
+.img-with-text2 a{
+position: relative;
+text-align: center;
+font-size: 1em;
+width: 150px;
+margin-bottom: -10px;
+margin-left: -70px;
+bottom: 15px;
+color:cornsilk;
+}
+
+.img-with-text a:hover { 
+	color:#ffaa80;
+;
+	}
+.content2_scale {
+    padding: 0 0 10px; 
+    margin-right: 68px;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: all 0.3s ease-in-out;   /* 占싸드러占쏙옙 占쏙옙占쏙옙占� 占쏙옙占쏙옙 占쌩곤옙*/
+  }
+.content2_scale:hover {
+    z-index: 9999;
+    cursor: pointer;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+#content3_section{
+margin-left:45px;
+width: 1000px;  /* 占십븝옙 */
+  /* 占�  筠占� */
+margin-bottom: 20px;  /* 占싣뤄옙 占쏙옙奴占쏙옙占� 占쏙옙占쏙옙 */
+
+}
+#content3_h2{
+width:1000px;
+padding: 0 45px;
+float: left;
+text-align:left;
+color:white; 
+font-family:'Franklin Gothic Medium';
+margin-top: 40px;
+margin-left: -4px;
+margin-bottom: 70px;
+}
+.content3-list {
+list-style:none;
+display:block;
+}
+.content3-list li {
+position: relative;
+float: left;
+margin-right: 36px;
+overflow: hidden;
+}
+.content3_img { 
+margin:0;
+padding:0;
+float:left;
+z-index:5;
+}
+.content3_img li{
+float:left;
+
+}
+.content3-list .opacity{
+position: absolute;
+    top:200px;
+    width:300px;
+    height:200px;
+    padding-top:20px;
+    background:rgba(0,0,0,0.6);
+    opacity:0;
+    z-index:10;
+}
+.content3-list li:hover .opacity {
+opacity: 1;
+cursor: pointer;
+transform: translateY(-200px);
+} 
+.content3-list .opacity h2 {
+padding-right: 150px;
+padding-top: 25px;
+color: #fff;
+text-align: center;
+}    

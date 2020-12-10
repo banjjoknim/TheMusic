@@ -1,0 +1,99 @@
+
+
+
+button{
+    background: transparent;
+    border: none;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+/* header �뒪���씪 */
+#header{
+position: relative;
+padding: 30px; 
+text-align: center;
+height: 150px;
+}
+
+/* 而⑦뀗痢�1 �쁺�뿭 */
+#content1{
+position: relative;
+text-align: center;
+border: 2px solid gray;
+color: cornsilk;
+}
+#content1 h1{
+    color:cornsilk;
+}
+#content1_product{
+	width: 100%;
+	color: cornsilk;
+}
+/* �긽�뭹 �뜽�꽕�씪 �궗吏� */
+#content1_product_picture{
+    margin: 0px -50px;
+}
+/* #content1_product_table{
+    width: 80%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    border:gray 1px solid;
+} */
+#content1_product table{
+	width: 85%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    border:gray 1px solid;
+}
+#content1_product_table tr{
+	border-top: gray 1px solid;
+}
+#content1_product table td{
+    color: cornsilk;
+    padding: 20px;
+}
+#content1_product_table input{
+    outline: none;
+    font-size: 15pt;
+    padding: 5px;
+}
+
+
+/* �긽�뭹�젙蹂� �쁺�뿭 */
+#content1_album_info{
+border: black 1px solid;
+text-align: left;
+display: block;
+position: absolute;
+top: 0px;
+left: 260px;
+height: 197px;
+}
+#content1_album_title{
+font-size: 30pt;
+font-weight: bold;
+color: cornsilk;
+}
+#content1_album_artist{
+font-size: 20pt;
+color: coral;
+position: relative;
+top: -40px;
+}
+#content1_album_release{
+font-size: 11pt;
+position: relative;
+top: -60px;
+color: cornflowerblue;
+}
+#content2{
+    position: relative;
+    height: 100px;
+}
+#content3{
+    padding: 40px;
+}

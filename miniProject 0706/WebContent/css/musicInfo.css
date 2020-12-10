@@ -1,0 +1,174 @@
+/* 筌뤴뫀諭� �뚢뫂�쀯㎘醫롮벥 揶쏉옙嚥≪뮄留뚳옙�뵠占쎈뮉 1100沃섎챶彛�. */
+
+/* body 占쎈뮞占쏙옙占쎌뵬 */
+body{ margin: 0; padding-top: 100px;}
+    
+
+/* container 占쎈뮞占쏙옙占쎌뵬 */
+#container{
+        position: relative;
+        width: 1100px; margin: 0 auto; padding: 0 20px; text-align: center;
+    }
+
+/* header 占쎈뮞占쏙옙占쎌뵬 */
+#header{
+    position: relative;
+    padding: 30px;
+    text-align: center;
+    height: 150px;
+}
+/* 占쎌겱占쎌삺 占쎈읂占쎌뵠筌욑옙 占쎌젟癰귨옙 */
+#header_info{
+    color: cornsilk;
+    font-weight: bold;
+    font-size: 40pt;
+}
+/* �뚢뫂�쀯㎘占�1 占쎌겫占쎈열 */
+#content1{
+    position: relative;
+    text-align: center;
+    height: 200px;
+    border: 2px gray solid;
+}
+/* �⑨옙 占쎈쑞占쎄퐬占쎌뵬 */
+#content1_song_picture{
+    position: absolute;
+    left: 0px;
+}
+#content1 .opacity{
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 200px;
+    height: 140px;
+    opacity: 0;
+    padding-bottom: 60px;
+    font-size: 30pt;
+}
+#content1 .opacity:hover{
+    position: absolute;
+    left: 0px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+}
+
+#content1_song_picture:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}
+/* �⑨옙 占쎄맒占쎄쉭占쎌젟癰귨옙 占쎌겫占쎈열 */
+#content1_song_info{
+    border: black 1px solid;
+    text-align: left;
+    display: block;
+    position: absolute;
+    height: 200px;
+    top: 0px;
+    left: 260px;
+}
+/* �⑨옙 占쎌젫筌륅옙 */
+#content1_song_title{
+    font-size: 30pt;
+    font-weight: bold;
+    color: cornsilk;
+}
+/* �⑨옙 占쎈툡占쎈뼒占쎈뮞占쎈뱜 */
+#content1_song_artist{
+    font-size: 20pt;
+    color: coral;
+    position: relative;
+    top: -40px;
+}
+/* �⑨옙 獄쏆뮆�꼻占쎌뵬 */
+#content1_song_release{
+    font-size: 11pt;
+    position: relative;
+    top: -60px;
+    color: cornflowerblue;
+}
+
+/* �넫�뿭釉섓옙�뒄 甕곌쑵�뱣 */
+button{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    border: 0; 
+    position: relative; 
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+}
+#content1_song_info_like_button{
+    top: -70px; left: 0px;
+}
+#content1_song_info_playlist_add_button{
+    top: -70px; left: 10px;
+}
+#content1_song_info_playlist_add_shopping_cart_button{
+    top: -70px; left: 20px;
+}
+/* �ⓥ돦�젟癰귨옙 占쎌뒭筌ο옙 占쎌젟癰귨옙 占쎈ご占쎈뻻 */
+#content1_song_likes{
+float: right;
+color: rgb(134, 131, 131);
+padding: 10px;
+font-size: 12pt;
+margin-right: 50px;
+margin-top: 30px;
+text-align: center;
+}
+
+#content1_song_likes_count{
+    color: coral;
+    font-size: 25pt;
+    position: relative;
+    bottom: 40px;
+}
+
+
+    
+
+#content2_related_song_list{
+    font-size: 25pt;
+    margin-bottom: 28px;
+    color: cornsilk;
+}
+
+
+
+/* 占쎈염�꽴占� �⑨옙 筌뤴뫖以� 占쎈�믭옙�뵠�뇡占� 占쎈뮞占쏙옙占쎌뵬 */
+/* tr{border-top: white;} */
+th{font-size: 13pt; font-weight: bold; color: white; height: 60px; background-color: gray;}
+td{font-size: 11pt; font-weight: bold; color: white; height: 40px; padding-top:10px; border-bottom: 1px solid gray;}
+    table{
+        margin: 0 auto;
+        table-layout: fixed; width: 700px;
+        border-collapse: collapse;
+        /* border: 2px solid coral; */
+        empty-cells: hide;
+        text-align: center;
+        overflow-x: hidden;
+    }
+    td img{border-radius: 7px; width: 70px; height: 70px;}
+
+    
+#confirm_button {
+	border: 2px solid cornsilk;
+}
+
+#confirm_button:hover {
+	border: 2px solid rgb(175, 57, 57);
+}
+
+#cancel_button {
+	border: 2px solid cornsilk;
+}
+
+#cancel_button:hover {
+	border: 2px solid rgb(175, 57, 57);
+}
+    
+    
+    

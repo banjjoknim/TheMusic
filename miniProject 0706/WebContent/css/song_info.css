@@ -1,0 +1,160 @@
+/* 紐⑤뱺 而⑦뀗痢좎쓽 媛�濡쒓만�씠�뒗 1100誘몃쭔. */
+
+/* body �뒪���씪 */
+body{ margin: 0; padding-top: 100px;}
+    
+
+/* container �뒪���씪 */
+#container{
+        position: relative;
+        width: 1100px; margin: 0 auto; padding: 0 20px; text-align: center;
+    }
+
+/* header �뒪���씪 */
+#header{
+    position: relative;
+    padding: 30px;
+    text-align: center;
+    height: 150px;
+}
+/* �쁽�옱 �럹�씠吏� �젙蹂� */
+#header_info{
+    color: cornsilk;
+    font-weight: bold;
+    font-size: 40pt;
+}
+/* 而⑦뀗痢�1 �쁺�뿭 */
+#content1{
+    position: relative;
+    text-align: center;
+    height: 200px;
+    border: 2px gray solid;
+}
+/* 怨� �뜽�꽕�씪 */
+#content1_song_picture{
+    position: absolute;
+    left: 0px;
+}
+#content1 .opacity{
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 200px;
+    height: 140px;
+    opacity: 0;
+    padding-top: 60px;
+    font-size: 30pt;
+}
+#content1 .opacity:hover{
+    position: absolute;
+    left: 0px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+}
+
+#content1_song_picture:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}
+/* 怨� �긽�꽭�젙蹂� �쁺�뿭 */
+#content1_song_info{
+    border: black 1px solid;
+    text-align: left;
+    display: block;
+    position: absolute;
+    height: 200px;
+    top: 0px;
+    left: 260px;
+}
+/* 怨� �젣紐� */
+#content1_song_title{
+    font-size: 30pt;
+    font-weight: bold;
+    color: cornsilk;
+}
+/* 怨� �븘�떚�뒪�듃 */
+#content1_song_artist{
+    font-size: 20pt;
+    color: coral;
+    position: relative;
+    top: -40px;
+}
+/* 怨� 諛쒕ℓ�씪 */
+#content1_song_release{
+    font-size: 11pt;
+    position: relative;
+    top: -60px;
+    color: cornflowerblue;
+}
+
+/* 醫뗭븘�슂 踰꾪듉 */
+button{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    border: 0; 
+    position: relative; 
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+}
+#content1_song_info_like_button{
+    top: -70px; left: 0px;
+}
+#content1_song_info_playlist_add_button{
+    top: -70px; left: 10px;
+}
+#content1_song_info_playlist_add_shopping_cart_button{
+    top: -70px; left: 20px;
+}
+/* 怨≪젙蹂� �슦痢� �젙蹂� �몴�떆 */
+#content1_song_likes{
+float: right;
+color: rgb(134, 131, 131);
+padding: 10px;
+font-size: 12pt;
+margin-right: 50px;
+margin-top: 30px;
+text-align: center;
+}
+
+#content1_song_likes_count{
+    color: coral;
+    font-size: 25pt;
+    position: relative;
+    bottom: 40px;
+}
+
+
+    
+
+#content2_related_song_list{
+    font-size: 25pt;
+    margin-bottom: 28px;
+    color: cornsilk;
+}
+
+
+
+/* �뿰愿� 怨� 紐⑸줉 �뀒�씠釉� �뒪���씪 */
+/* tr{border-top: white;} */
+th{font-size: 13pt; font-weight: bold; color: white; height: 60px; background-color: gray;}
+td{font-size: 11pt; font-weight: bold; color: white; height: 40px; padding-top:10px; border-bottom: 1px solid gray;}
+    table{
+        margin: 0 auto;
+        table-layout: fixed; width: 700px;
+        border-collapse: collapse;
+        /* border: 2px solid coral; */
+        empty-cells: hide;
+        text-align: center;
+        overflow-x: hidden;
+    }
+    td img{border-radius: 7px; width: 70px; height: 70px;}
+
+    
+
+    
+    
+    

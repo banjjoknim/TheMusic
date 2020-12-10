@@ -1,0 +1,48 @@
+/* �쉶�썝 �젙蹂� �엯�젰李� */
+
+#content1_form fieldset {
+    margin: 0 auto;
+    width: 700px;
+}
+#content1_form ul.join_box{
+    padding : 30px;
+    margin-left: -3px;
+}
+
+#content1_form label.reg {
+    font-size: 15px;
+    font-weight: 400;
+    width: 150px;
+    float: left;
+    padding-left: 46px;
+}
+
+#content1_form ul li {
+    margin: 30px ;
+    color : cornsilk;
+    
+}
+
+#content2_form{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#content2_form .footBtwrap{
+    margin-top: 15px;
+}
+#content2_form .footBtwrap>li{
+    float: left;
+    margin-left: 250px;
+}
+#content2_form .footBtwrap li button{
+    width: 100px;
+    height: 40px; 
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+#content3{
+    padding: 40px;
+}
