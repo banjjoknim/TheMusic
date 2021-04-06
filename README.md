@@ -2,8 +2,9 @@
 개인 창작자를 위한 음원 공유 웹 사이트
 
 ## 1. 기술스택
-- Language : `Java, JavaScript, HTML5, CSS3`
-- Database : `Oracle`
+- `Java, JavaScript, HTML5, CSS3`
+- `JSP, Apache Tomcat`
+- `Oracle`
 
 ## 2. 기능
 - 음원 관련
