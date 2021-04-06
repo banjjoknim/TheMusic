@@ -25,6 +25,7 @@
   - 제목별
   - 가수별
   - 앨범별
+- 쇼핑카트
   
 ## 3. 아키텍처
 ![](https://images.velog.io/images/banjjoknim/post/b98876a0-1be9-4daf-8469-7dbb9cb61cbd/image.png)
@@ -46,3 +47,7 @@
 > 검색 화면
 > 
 > ![](https://images.velog.io/images/banjjoknim/post/36f7aec9-9d64-49e8-a235-af12baea8e9f/image.png)
+
+> 쇼핑 화면
+>
+> ![](https://images.velog.io/images/banjjoknim/post/6bba1a5f-97d4-4dff-9d8c-1100de92511a/image.png)
