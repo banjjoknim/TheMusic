@@ -30,4 +30,19 @@
 ![](https://images.velog.io/images/banjjoknim/post/b98876a0-1be9-4daf-8469-7dbb9cb61cbd/image.png)
 
 ## 4. 화면
->
+> 메인 화면
+> 
+> ![](https://images.velog.io/images/banjjoknim/post/6d46ab50-f0dc-4345-a58b-eb83e10f043a/image.png)
+> ![](https://images.velog.io/images/banjjoknim/post/c7dfef71-734f-4f2b-afca-237661556dcf/image.png)
+
+> 회원 화면
+> 
+> ![](https://images.velog.io/images/banjjoknim/post/e2b6ced4-ab98-4da6-a512-55a2dd656c8f/image.png)
+
+> 음원 화면
+> 
+> ![](https://images.velog.io/images/banjjoknim/post/bab9595e-17b9-4cd7-ad2b-c1adf6135c27/image.png)
+
+> 검색 화면
+> 
+> ![](https://images.velog.io/images/banjjoknim/post/36f7aec9-9d64-49e8-a235-af12baea8e9f/image.png)
