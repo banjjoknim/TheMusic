@@ -2,7 +2,6 @@
 개인 창작자를 위한 음원 공유 웹 사이트
 
 ## 1. 기술스택
-- Tools : `ECLIPSE IDE, SQL DEVLELOPER`
 - Language : `Java, JavaScript, HTML5, CSS3`
 - Database : `Oracle`
 
