@@ -26,6 +26,8 @@
   - 가수별
   - 앨범별
 - 쇼핑카트
+  - 카트에 담기
+  - 카트에서 
   
 ## 3. 아키텍처
 ![](https://images.velog.io/images/banjjoknim/post/b98876a0-1be9-4daf-8469-7dbb9cb61cbd/image.png)
