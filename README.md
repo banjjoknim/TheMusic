@@ -30,7 +30,10 @@
 ## 3. 아키텍처
 ![](https://images.velog.io/images/banjjoknim/post/b98876a0-1be9-4daf-8469-7dbb9cb61cbd/image.png)
 
-## 4. 화면
+## 4. ERD
+![](https://images.velog.io/images/banjjoknim/post/2d066949-7d60-4c9c-84c7-72d7e1cf8f03/image.png)
+
+## 5. 화면
 > 메인 화면
 > 
 > ![](https://images.velog.io/images/banjjoknim/post/6d46ab50-f0dc-4345-a58b-eb83e10f043a/image.png)
