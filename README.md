@@ -1,7 +1,7 @@
 # TheMusic
 개인 창작자를 위한 음원 공유 웹 사이트
 
-## 1. 기술스택
+## 1. 사용 기술 및 라이브러리
 - `Java, JavaScript, HTML5, CSS3`
 - `JSP, Apache Tomcat`
 - `Oracle`
