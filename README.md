@@ -1,6 +1,8 @@
 # TheMusic
 개인 창작자를 위한 음원 공유 웹 사이트
 
+![](https://images.velog.io/images/banjjoknim/post/4b2000b1-5c11-4f27-a0d9-944f4f79c761/THE%20MUSIC%20cover.PNG)
+
 ## 1. 사용 기술 및 라이브러리
 - `Java, JavaScript, HTML5, CSS3`
 - `JSP, Apache Tomcat`
