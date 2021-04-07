@@ -3,6 +3,12 @@
 
 ![](https://images.velog.io/images/banjjoknim/post/4b2000b1-5c11-4f27-a0d9-944f4f79c761/THE%20MUSIC%20cover.PNG)
 
+## 0. 팀 구성
+|포지션|팀원|
+|--|--|
+|풀스택|전일환|
+|풀스택|[배재홍](https://github.com/banjjoknim)|
+
 ## 1. 사용 기술 및 라이브러리
 - `Java, JavaScript, HTML5, CSS3`
 - `JSP, Apache Tomcat`
